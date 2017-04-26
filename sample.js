@@ -20,6 +20,9 @@ var stream = process.stdin;
 list.option(' One    ')
     .option(' Two    ')
     .option(' Three  ')
+    .option(' Four  ')
+    .option(' Five  ')
+    .option(' Six  ')
     .list();
 
 list.on('select', function(options){
